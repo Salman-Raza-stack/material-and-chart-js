@@ -6,7 +6,6 @@ import NavBar from "./NavBar";
 import Post from "./Post";
 import BarChart from "./BarChart";
 import PirChart from "./PirChart";
-import PirChart from "./PirChart";
 const useStyles = makeStyles((theme) => ({
   paper: {
     width: 400,
