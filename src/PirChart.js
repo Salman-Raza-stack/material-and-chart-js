@@ -15,7 +15,9 @@ const data = {
 function PirChart() {
   return (
     <div>
-      <h2>Pie Example</h2>
+      <center>
+        <h2>Pie Example</h2>
+      </center>
       <Pie data={data} height={60} />
     </div>
   );
