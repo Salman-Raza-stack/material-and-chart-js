@@ -4,6 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import { TextField, Button, CircularProgress } from "@material-ui/core";
 import NavBar from "./NavBar";
 import Post from "./Post";
+import BarChart from "./BarChart";
 const useStyles = makeStyles((theme) => ({
   paper: {
     width: 400,
@@ -37,6 +38,7 @@ export default function SimplePaper() {
           <Post />
         </form>
       </Paper>
+      <BarChart />
     </div>
   );
 }
